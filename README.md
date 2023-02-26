@@ -1,9 +1,11 @@
 # electric-hivemind
+
 Electric Hivemind is a programming learning knowledgebase.
 
 The project is built on top of [mkdocs-material](https://squidfunk.github.io/mkdocs-material/creating-your-site/) and [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
+
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
@@ -32,7 +34,6 @@ poetry install
 * `mkdocs -h` - Print help message and exit.
 ```
 
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
@@ -42,4 +43,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-TBD
+See [License](LICENSE.md)

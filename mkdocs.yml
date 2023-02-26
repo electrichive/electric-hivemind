@@ -1,3 +1,54 @@
 site_name: Electric Hivemind
+
+repo_url: https://github.com/squidfunk/mkdocs-material
+
+nav:
+  - Home: index.md
+  - Programming: hivemind/programming.md
+  - Electric Hive: hivemind/hive.md
+  - About: about.md
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 theme:
   name: material
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune 
+    - navigation.indexes 
+    - toc.follow
+    - toc.integrate 
+    - navigation.top
+
+  # custom_dir: custom_theme/
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: deep orange
+      accent: amber
+
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: deep orange
+      accent: amber
+
+extra_css:
+  - custom_theme/css/electrichive.css
