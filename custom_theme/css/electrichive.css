@@ -1,0 +1,14 @@
+:root {
+    --primary-color-yellow: #F0B309;
+    --primary-color-black: #000000;
+    --primary-color-white: #FFFFFF;
+
+    --secondary-color-orange: #F69004;
+    --secondary-color-aqua: #1F9A93;
+
+    --alt-principal-color-yellow: #FFBE42;
+    --alt-principal-color-orange: #CC5D00;
+
+    --alt-aux-color-gray: #363636;
+    --alt-aux-color-white: #FEFDF5;
+}

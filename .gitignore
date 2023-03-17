@@ -131,3 +131,4 @@ dmypy.json
 # Jetbrains / Pycharm
 
 .idea/
+.vscode/
